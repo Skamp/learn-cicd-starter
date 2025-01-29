@@ -13,8 +13,8 @@ func TestGetAPIKey(t *testing.T) {
 	expected := ""
 
 	// Act: Call the function being tested
-	result , status:= GetAPIKey(input)
-	fmt.Sprintf("RESULT [%v] STATUS [%v]",result, status)
+	result, status := GetAPIKey(input)
+	fmt.Sprintf("RESULT [%v] STATUS [%v]", result, status)
 
 	// Assert: Compare the result to the expected output
 	if result != expected {
