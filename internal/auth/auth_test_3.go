@@ -17,6 +17,6 @@ func TestGetAPIKey3(t *testing.T) {
 	// Assert: Compare the result to the expected output
 	if result != expected {
 
-		t.Errorf("GetAPIKey(%v) = [%v]; want %v, status %v", input, result, expected,status)
+		t.Errorf("GetAPIKey(%v) = [%v]; want %v, status %v", input, result, expected, status)
 	}
 }
