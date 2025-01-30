@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestGetAPIKey2(t *testing.T) {
+func TestGetAPIKey3(t *testing.T) {
 	// Arrange: Set up necessary input
 	input := http.Header{}
 	//input.Add("Content-Type", "application/json")
